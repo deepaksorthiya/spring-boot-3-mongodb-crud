@@ -1,10 +1,12 @@
+[![Java Maven Build Test](https://github.com/deepaksorthiya/spring-boot-3-mongodb-crud/actions/workflows/maven-build.yml/badge.svg)](https://github.com/deepaksorthiya/spring-boot-3-mongodb-crud/actions/workflows/maven-build.yml)
+
 # Getting Started
 
 ## Requirements:
 
 ```
-Git: 2.47.0
-Spring Boot: 3.3.6
+Git: 2.47.1
+Spring Boot: 3.4.1
 Maven: 3.9+
 Java: 17
 Docker Engine: 25.0.2
@@ -121,11 +123,11 @@ curl --location 'http://localhost:8080/api/sales/aggregation/buckets'
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/3.3.5/maven-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.3.5/maven-plugin/build-image.html)
-* [Spring Boot Testcontainers support](https://docs.spring.io/spring-boot/3.3.5/reference/testing/testcontainers.html#testing.testcontainers)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/maven-plugin)
+* [Create an OCI image](https://docs.spring.io/spring-boot/maven-plugin/build-image.html)
+* [Spring Boot Testcontainers support](https://docs.spring.io/spring-boot/reference/testing/testcontainers.html#testing.testcontainers)
 * [Testcontainers MongoDB Module Reference Guide](https://java.testcontainers.org/modules/databases/mongodb/)
-* [Spring Data MongoDB](https://docs.spring.io/spring-boot/3.3.5/reference/data/nosql.html#data.nosql.mongodb)
+* [Spring Data MongoDB](https://docs.spring.io/spring-boot/reference/data/nosql.html#data.nosql.mongodb)
 * [Testcontainers](https://java.testcontainers.org/)
 
 ### Guides

@@ -15,7 +15,7 @@ on:
       - 'README.md'
       - '.gitignore'
       - 'docs/**'
-      - 'images/**' 
+      - 'images/**'
       - 'k8s/**'
       - 'docker-compose.yml'
       - 'docker/**'
@@ -26,9 +26,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 17
@@ -38,4 +36,4 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Clean Build Test with Maven
-        run: mvn clean package --file pom.xml --batch-mode --update-snapshots
+        run: chmod +x mvnw && ./mvnw clean package --file pom.xml --batch-mode --update-snapshots
